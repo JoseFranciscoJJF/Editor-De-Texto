@@ -1,0 +1,17 @@
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\Editor De Texto (Aplicando Conceitos De Pilhas).exe.config
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\Editor De Texto (Aplicando Conceitos De Pilhas).exe
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\Editor De Texto (Aplicando Conceitos De Pilhas).pdb
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\Editor_De_Texto__Aplicando_Conceitos_De_Pilhas_.formEditorDeTexto.resources
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\Editor_De_Texto__Aplicando_Conceitos_De_Pilhas_.Properties.Resources.resources
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\Editor De Texto (Aplicando Conceitos De Pilhas).exe
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\Editor De Texto (Aplicando Conceitos De Pilhas).pdb
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\Controller.dll
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\MODAL.dll
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\Controller.pdb
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\MODAL.pdb
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\View.csproj.Up2Date
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\Xceed.Document.NET.dll
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\Xceed.Words.NET.dll

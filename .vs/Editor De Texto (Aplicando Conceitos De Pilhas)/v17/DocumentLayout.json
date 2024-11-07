@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F69F2B-C6B3-4D13-B5AC-9956A4566AC2}|Controller\\Controller.csproj|c:\\users\\josej\\documents\\visual studio 2022\\projects\\editor de texto (aplicando conceitos de pilhas)\\controller\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F69F2B-C6B3-4D13-B5AC-9956A4566AC2}|Controller\\Controller.csproj|solutionrelative:controller\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F87F8E0-F035-4C87-8F5B-B9B8C69E6DDC}|Editor De Texto (Aplicando Conceitos De Pilhas)\\View.csproj|C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\editor de texto (aplicando conceitos de pilhas)\\formeditordetexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F87F8E0-F035-4C87-8F5B-B9B8C69E6DDC}|Editor De Texto (Aplicando Conceitos De Pilhas)\\View.csproj|solutionrelative:editor de texto (aplicando conceitos de pilhas)\\formeditordetexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F87F8E0-F035-4C87-8F5B-B9B8C69E6DDC}|Editor De Texto (Aplicando Conceitos De Pilhas)\\View.csproj|C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\editor de texto (aplicando conceitos de pilhas)\\formeditordetexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F87F8E0-F035-4C87-8F5B-B9B8C69E6DDC}|Editor De Texto (Aplicando Conceitos De Pilhas)\\View.csproj|solutionrelative:editor de texto (aplicando conceitos de pilhas)\\formeditordetexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E8FEC0-B464-4925-A8FA-CE1C534FAF76}|MODAL\\MODAL.csproj|C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\modal\\pilha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8FEC0-B464-4925-A8FA-CE1C534FAF76}|MODAL\\MODAL.csproj|solutionrelative:modal\\pilha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E8FEC0-B464-4925-A8FA-CE1C534FAF76}|MODAL\\MODAL.csproj|C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\modal\\no.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8FEC0-B464-4925-A8FA-CE1C534FAF76}|MODAL\\MODAL.csproj|solutionrelative:modal\\no.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pilha.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\MODAL\\Pilha.cs",
+              "RelativeDocumentMoniker": "MODAL\\Pilha.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\MODAL\\Pilha.cs",
+              "RelativeToolTip": "MODAL\\Pilha.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwDIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:43:10.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formEditorDeTexto.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs",
+              "RelativeDocumentMoniker": "Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs",
+              "RelativeToolTip": "Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAQwPkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T20:19:14.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formEditorDeTexto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs",
+              "RelativeDocumentMoniker": "Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs [Design]",
+              "RelativeToolTip": "Editor De Texto (Aplicando Conceitos De Pilhas)\\formEditorDeTexto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:23:23.291Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "No.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\MODAL\\No.cs",
+              "RelativeDocumentMoniker": "MODAL\\No.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\MODAL\\No.cs",
+              "RelativeToolTip": "MODAL\\No.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:39:51.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Text.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\Controller\\Text.cs",
+              "RelativeDocumentMoniker": "Controller\\Text.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\Visual Studio 2022\\Projects\\Editor De Texto (Aplicando Conceitos De Pilhas)\\Controller\\Text.cs",
+              "RelativeToolTip": "Controller\\Text.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAAwL0AAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T00:06:36.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+_ View (main)
+_ Modal (class No, Class Pilha)
+_ Controller (class Texto)
+
+View - contains the graphic part. Receive inputs of the user and send use the Controller funtions to manipulate the datas.
+
+Modal - contains the class No and Pilha, represent our object. Make all Pilha's operations, including : Add and Remove.
+
+Controller - contains the class Text. Work with the text and information that the user insert, creating others funtions to return to our View. Receive data from View and use the function of Modal to manupulate our Pilha.
+
+
+	Tudo em Maiúsculas
+	Maiúsculas Primeiro
+	Maiúsculas Pós-Ponto
+	Tudo em Menúsculas
+	Menusculas Primeiro
+	Ajustar Espaços
+	Ajustar Pontos
+	Ajustar Maiúsculas e Menúsculas
+	Remover espaços
+	Remover Pontos
+	Remover Letras
+	Remover Números
+	Remover Caracteres Especiais
+
+	Dados do Texto : Nº Caracteres, Nº Palavras, Nº Letras, Nº Números, Nº Pontos, Nº Espaços, Nº Maiúsculas, Nº Menúsculas.
+
+	Substituir isto…
+	Por, isto...
+
+Opctions . Alterar | Ajustar | Remover | Verificar | Acerca
+Buttons - Anterior Posterior Limparx3
+
+
+Colors - Azul(#3F48CC), Azul_Claro(#84ACE0), Azul_Escuro(#00084A), Cinzento(#7F7F7F).

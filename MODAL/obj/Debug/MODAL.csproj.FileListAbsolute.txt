@@ -1,0 +1,6 @@
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\MODAL\bin\Debug\MODAL.dll
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\MODAL\bin\Debug\MODAL.pdb
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\MODAL\obj\Debug\MODAL.csproj.AssemblyReference.cache
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\MODAL\obj\Debug\MODAL.csproj.CoreCompileInputs.cache
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\MODAL\obj\Debug\MODAL.dll
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\MODAL\obj\Debug\MODAL.pdb
