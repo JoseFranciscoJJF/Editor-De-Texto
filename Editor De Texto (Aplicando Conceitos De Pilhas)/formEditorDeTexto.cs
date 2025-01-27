@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
+using Xceed.Words.NET;
+using iText.Kernel.Pdf;
+using iText.Layout;
+using iText.Layout.Element;
+using ClosedXML.Excel;
 
 namespace Editor_De_Texto__Aplicando_Conceitos_De_Pilhas_
 {
@@ -76,11 +75,94 @@ namespace Editor_De_Texto__Aplicando_Conceitos_De_Pilhas_
             }
         }
 
-        private void buttonRemember_Click(object sender, EventArgs e)
+        private void buttonSaving_Click(object sender, EventArgs e)
         {
             if (official_text != null)
             {
                 NextSteps_Change(0);
+            }
+
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                // Define os tipos de arquivo que o usuário pode escolher
+                saveFileDialog.Filter = "Text files (*.txt)|*.txt|Word documents (*.docx)|*.docx|Documento HTML (*.html)|*.html|Documento em PDF (*.pdf)|*.pdf|CSS files (*.css)|*.css|Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+                saveFileDialog.Title = "Editor De Texto | Escolha o formato para salvar";
+
+                // Exibe o dialogo para o usuário
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    // Obtém a extensão do arquivo escolhido
+                    string fileExtension = Path.GetExtension(saveFileDialog.FileName);
+
+                    // Verifica se o formato escolhido é .txt
+                    if (fileExtension.Equals(".txt", StringComparison.OrdinalIgnoreCase))
+                    {
+                        File.WriteAllText(saveFileDialog.FileName, richTextBoxText.Text);
+                        MessageBox.Show("Arquivo em formato 'txt' salvo com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    // Verifica se o formato escolhido é .docx
+                    else if (fileExtension.Equals(".docx", StringComparison.OrdinalIgnoreCase))
+                    {
+                        using (var document = DocX.Create(saveFileDialog.FileName))
+                        {
+                            document.InsertParagraph(richTextBoxText.Text);
+                            document.Save();
+                        }
+                        MessageBox.Show("Arquivo em formato 'docx' salvo com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    // Verifica se o formato escolhido é .pdf
+                    else if (fileExtension.Equals(".pdf", StringComparison.OrdinalIgnoreCase))
+                    {
+                        try
+                        {
+                            // Usando iTextSharp para criar o PDF
+                            using (var pdfWriter = new PdfWriter(saveFileDialog.FileName))
+                            {
+                                using (var pdf = new PdfDocument(pdfWriter))
+                                {
+                                    var document = new Document(pdf);
+                                    // Adiciona o conteúdo do RichTextBox no PDF
+                                    document.Add(new Paragraph(richTextBoxText.Text));
+                                }
+                            }
+                            MessageBox.Show("Arquivo em formato 'pdf' salvo com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Erro ao salvar em PDF: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    // Verifica se o formato escolhido é .html
+                    else if (fileExtension.Equals(".html", StringComparison.OrdinalIgnoreCase))
+                    {
+                        // Salva o conteúdo como HTML simples
+                        File.WriteAllText(saveFileDialog.FileName, $"<html><body><pre>{richTextBoxText.Text}</pre></body></html>");
+                        MessageBox.Show("Arquivo em formato 'html' salvo com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    // Verifica se o formato escolhido é .css
+                    else if (fileExtension.Equals(".css", StringComparison.OrdinalIgnoreCase))
+                    {
+                        // Salva o conteúdo como arquivo CSS
+                        File.WriteAllText(saveFileDialog.FileName, richTextBoxText.Text);
+                        MessageBox.Show("Arquivo em formato 'css' salvo com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    // Verifica se o formato escolhido é .xlsx
+                    else if (fileExtension.Equals(".xlsx", StringComparison.OrdinalIgnoreCase))
+                    {
+                        // Usando ClosedXML para criar o arquivo Excel
+                        using (var workbook = new XLWorkbook())
+                        {
+                            var worksheet = workbook.Worksheets.Add("Texto");
+                            worksheet.Cell(1, 1).Value = richTextBoxText.Text;
+                            workbook.SaveAs(saveFileDialog.FileName);
+                        }
+                        MessageBox.Show("Arquivo em formato 'xlsx' salvo com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Não é possível guardar arquivos neste formato!\n\nEm breve novas actualizações serão adicionadas.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                }
             }
         }
         private void pictureBoxClearText_Click(object sender, EventArgs e)

@@ -33,3 +33,8 @@ Buttons - Anterior Posterior Limparx3
 
 
 Colors - Azul(#3F48CC), Azul_Claro(#84ACE0), Azul_Escuro(#00084A), Cinzento(#7F7F7F).
+
+
+Pacotes À Instalar : 'Xceed.Words.NET' para .docx, e 'PdfSharp' ou 'iTextShar' para .pdf
+
+

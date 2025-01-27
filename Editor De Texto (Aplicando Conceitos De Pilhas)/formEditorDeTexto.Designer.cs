@@ -41,6 +41,7 @@
             this.ajustarPontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajustarMaiusculasEMenusculasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.espaºosPósPontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajustarTudoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.retirarEspaçosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.retirarLetraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -78,11 +79,10 @@
             this.labelNextSteps = new System.Windows.Forms.Label();
             this.labelAntecedentSteps = new System.Windows.Forms.Label();
             this.pictureBoxClearText = new System.Windows.Forms.PictureBox();
-            this.buttonRemember = new System.Windows.Forms.Button();
+            this.buttonSaving = new System.Windows.Forms.Button();
             this.buttonNext = new System.Windows.Forms.Button();
             this.buttonAntecedent = new System.Windows.Forms.Button();
             this.richTextBoxText = new System.Windows.Forms.RichTextBox();
-            this.ajustarTudoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStripOptions.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -116,7 +116,7 @@
             this.acercaToolStripMenuItem1});
             this.menuStripOptions.Location = new System.Drawing.Point(0, 0);
             this.menuStripOptions.Name = "menuStripOptions";
-            this.menuStripOptions.Size = new System.Drawing.Size(1182, 28);
+            this.menuStripOptions.Size = new System.Drawing.Size(1182, 26);
             this.menuStripOptions.TabIndex = 0;
             this.menuStripOptions.Text = "menuStrip1";
             // 
@@ -130,7 +130,7 @@
             this.tudoEmMenúsculasToolStripMenuItem});
             this.alterarToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.alterarToolStripMenuItem.Name = "alterarToolStripMenuItem";
-            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
+            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(78, 22);
             this.alterarToolStripMenuItem.Text = "Alterar";
             // 
             // maiúsculasPosPontoToolStripMenuItem
@@ -188,7 +188,7 @@
             this.ajustarTudoToolStripMenuItem});
             this.ajustarToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.ajustarToolStripMenuItem.Name = "ajustarToolStripMenuItem";
-            this.ajustarToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
+            this.ajustarToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.ajustarToolStripMenuItem.Text = "ajúsculas &";
             // 
             // ajustarEspaçosToolStripMenuItem
@@ -227,6 +227,15 @@
             this.espaºosPósPontosToolStripMenuItem.Text = "Espaços Pós-Pontos";
             this.espaºosPósPontosToolStripMenuItem.Click += new System.EventHandler(this.espaºosPósPontosToolStripMenuItem_Click);
             // 
+            // ajustarTudoToolStripMenuItem
+            // 
+            this.ajustarTudoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(8)))), ((int)(((byte)(74)))));
+            this.ajustarTudoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.ajustarTudoToolStripMenuItem.Name = "ajustarTudoToolStripMenuItem";
+            this.ajustarTudoToolStripMenuItem.Size = new System.Drawing.Size(330, 26);
+            this.ajustarTudoToolStripMenuItem.Text = "Ajustar Texto Completo";
+            this.ajustarTudoToolStripMenuItem.Click += new System.EventHandler(this.ajustarTudoToolStripMenuItem_Click);
+            // 
             // removerToolStripMenuItem
             // 
             this.removerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -237,7 +246,7 @@
             this.retirarCaracteresEspeciaisToolStripMenuItem});
             this.removerToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.removerToolStripMenuItem.Name = "removerToolStripMenuItem";
-            this.removerToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
+            this.removerToolStripMenuItem.Size = new System.Drawing.Size(78, 22);
             this.removerToolStripMenuItem.Text = "Retirar";
             // 
             // retirarEspaçosToolStripMenuItem
@@ -289,7 +298,7 @@
             // 
             this.característicasToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.característicasToolStripMenuItem.Name = "característicasToolStripMenuItem";
-            this.característicasToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
+            this.característicasToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.característicasToolStripMenuItem.Text = "Características";
             // 
             // acercaToolStripMenuItem
@@ -311,7 +320,7 @@
             this.loremIpsumTextoToolStripMenuItem});
             this.acercaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.acercaToolStripMenuItem.Name = "acercaToolStripMenuItem";
-            this.acercaToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.acercaToolStripMenuItem.Size = new System.Drawing.Size(62, 22);
             this.acercaToolStripMenuItem.Text = "Ajuda";
             // 
             // maiúsculasPósPontoToolStripMenuItem
@@ -431,7 +440,7 @@
             // 
             this.acercaToolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.acercaToolStripMenuItem1.Name = "acercaToolStripMenuItem1";
-            this.acercaToolStripMenuItem1.Size = new System.Drawing.Size(70, 24);
+            this.acercaToolStripMenuItem1.Size = new System.Drawing.Size(70, 22);
             this.acercaToolStripMenuItem1.Text = "Acerca";
             this.acercaToolStripMenuItem1.Click += new System.EventHandler(this.acercaToolStripMenuItem1_Click);
             // 
@@ -550,7 +559,7 @@
             this.panel4.Controls.Add(this.labelNextSteps);
             this.panel4.Controls.Add(this.labelAntecedentSteps);
             this.panel4.Controls.Add(this.pictureBoxClearText);
-            this.panel4.Controls.Add(this.buttonRemember);
+            this.panel4.Controls.Add(this.buttonSaving);
             this.panel4.Controls.Add(this.buttonNext);
             this.panel4.Controls.Add(this.buttonAntecedent);
             this.panel4.Controls.Add(this.richTextBoxText);
@@ -596,19 +605,19 @@
             this.pictureBoxClearText.TabStop = false;
             this.pictureBoxClearText.Click += new System.EventHandler(this.pictureBoxClearText_Click);
             // 
-            // buttonRemember
+            // buttonSaving
             // 
-            this.buttonRemember.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(172)))), ((int)(((byte)(224)))));
-            this.buttonRemember.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonRemember.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonRemember.ForeColor = System.Drawing.Color.White;
-            this.buttonRemember.Location = new System.Drawing.Point(644, 11);
-            this.buttonRemember.Name = "buttonRemember";
-            this.buttonRemember.Size = new System.Drawing.Size(110, 31);
-            this.buttonRemember.TabIndex = 3;
-            this.buttonRemember.Text = "Lembrar";
-            this.buttonRemember.UseVisualStyleBackColor = false;
-            this.buttonRemember.Click += new System.EventHandler(this.buttonRemember_Click);
+            this.buttonSaving.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(172)))), ((int)(((byte)(224)))));
+            this.buttonSaving.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSaving.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonSaving.ForeColor = System.Drawing.Color.White;
+            this.buttonSaving.Location = new System.Drawing.Point(644, 11);
+            this.buttonSaving.Name = "buttonSaving";
+            this.buttonSaving.Size = new System.Drawing.Size(110, 31);
+            this.buttonSaving.TabIndex = 3;
+            this.buttonSaving.Text = "Guardar";
+            this.buttonSaving.UseVisualStyleBackColor = false;
+            this.buttonSaving.Click += new System.EventHandler(this.buttonSaving_Click);
             // 
             // buttonNext
             // 
@@ -647,15 +656,6 @@
             this.richTextBoxText.Text = "";
             this.richTextBoxText.Leave += new System.EventHandler(this.richTextBoxText_Leave);
             this.richTextBoxText.MouseLeave += new System.EventHandler(this.richTextBoxText_MouseLeave);
-            // 
-            // ajustarTudoToolStripMenuItem
-            // 
-            this.ajustarTudoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(8)))), ((int)(((byte)(74)))));
-            this.ajustarTudoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.ajustarTudoToolStripMenuItem.Name = "ajustarTudoToolStripMenuItem";
-            this.ajustarTudoToolStripMenuItem.Size = new System.Drawing.Size(330, 26);
-            this.ajustarTudoToolStripMenuItem.Text = "Ajustar Texto Completo";
-            this.ajustarTudoToolStripMenuItem.Click += new System.EventHandler(this.ajustarTudoToolStripMenuItem_Click);
             // 
             // formEditorDeTexto
             // 
@@ -734,7 +734,7 @@
         private System.Windows.Forms.TextBox textBoxNewText;
         private System.Windows.Forms.TextBox textBoxLastText;
         private System.Windows.Forms.Button buttonAntecedent;
-        private System.Windows.Forms.Button buttonRemember;
+        private System.Windows.Forms.Button buttonSaving;
         private System.Windows.Forms.Button buttonNext;
         private System.Windows.Forms.Button buttonReplace;
         private System.Windows.Forms.PictureBox pictureBoxClearText;
