@@ -167,6 +167,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormCaracteristicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCaracteristicas.Designer.cs">
+      <DependentUpon>FormCaracteristicas.cs</DependentUpon>
+    </Compile>
     <Compile Include="formEditorDeTexto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +181,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCaracteristicas.resx">
+      <DependentUpon>FormCaracteristicas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formEditorDeTexto.resx">
       <DependentUpon>formEditorDeTexto.cs</DependentUpon>
     </EmbeddedResource>

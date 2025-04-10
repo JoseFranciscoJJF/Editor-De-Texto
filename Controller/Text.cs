@@ -421,11 +421,14 @@ namespace Controller
             {
                 for (int i = 0; i < texto.Length; i++)
                 {
-                    if ((texto.Substring(i, antigo.Length) == antigo))
-                    {
-                        sub++;
-                        i = i + antigo.Length - 1;
-                    }
+                    if ((i + antigo.Length) > texto.Length)
+                        i = texto.Length;
+                    else
+                        if ((texto.Substring(i, antigo.Length) == antigo))
+                        {
+                            sub++;
+                            i = i + antigo.Length - 1;
+                        }
                 }
                 return sub;
             }

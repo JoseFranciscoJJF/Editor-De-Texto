@@ -91,3 +91,4 @@ C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando 
 C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\bin\Debug\System.ValueTuple.xml
+C:\Users\josej\Documents\Visual Studio 2022\Projects\Editor De Texto (Aplicando Conceitos De Pilhas)\Editor De Texto (Aplicando Conceitos De Pilhas)\obj\Debug\Editor_De_Texto__Aplicando_Conceitos_De_Pilhas_.FormCaracteristicas.resources

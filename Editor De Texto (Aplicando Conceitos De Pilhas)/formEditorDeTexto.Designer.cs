@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formEditorDeTexto));
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStripOptions = new System.Windows.Forms.MenuStrip();
             this.alterarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -300,6 +301,7 @@
             this.característicasToolStripMenuItem.Name = "característicasToolStripMenuItem";
             this.característicasToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.característicasToolStripMenuItem.Text = "Características";
+            this.característicasToolStripMenuItem.Click += new System.EventHandler(this.característicasToolStripMenuItem_Click);
             // 
             // acercaToolStripMenuItem
             // 
@@ -665,6 +667,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStripOptions;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1200, 650);

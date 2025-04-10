@@ -393,6 +393,17 @@ namespace Editor_De_Texto__Aplicando_Conceitos_De_Pilhas_
             richTextBoxText_MouseLeave(sender, e);
         }
 
+        private void característicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (official_text.ReturnTextValue() == string.Empty)
+                MessageBox.Show("Att.: Nenhum texto detectado.\n\nAdicione o seu texto à caixa de texto principal.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            else
+            {
+                FormCaracteristicas f = new FormCaracteristicas(official_text, richTextBoxText.Text);
+                f.ShowDialog();
+            }
+        }
+
 
 
         //private void tudoEmMaiúsculasToolStripMenuItem_Click(object sender, EventArgs e)

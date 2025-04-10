@@ -23,7 +23,7 @@ Controller - contains the class Text. Work with the text and information that th
 	Remover Números
 	Remover Caracteres Especiais
 
-	Dados do Texto : Nº Caracteres, Nº Palavras, Nº Letras, Nº Números, Nº Pontos, Nº Espaços, Nº Maiúsculas, Nº Menúsculas.
+	Dados do Texto : Nº Caracteres, Nº Palavras, Nº Letras, Nº Números, Nº Pontos, Nº Espaços, Nº De Carcteres Especiais, Nº Maiúsculas, Nº Menúsculas.
 
 	Substituir isto…
 	Por, isto...
